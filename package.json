@@ -1,0 +1,20 @@
+{
+  "name": "lab-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ytmusic.spec.js",
+  "scripts": {
+    "test": "npm exec playwright test",
+    "test-report": "npm exec playwright show-report",
+    "test-ui": "npm exec playwright test --ui",
+    "test-debug": "npm exec playwright test --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.6"
+  }
+}
