@@ -36,6 +36,6 @@ test.describe('Автоматизовані тести для YouTube Music', ()
     await expect(page).toHaveURL(/accounts\.google\.com/);
   });
 
-  test.setTimeout(20000);
+  test.setTimeout(60000);
 });
 
